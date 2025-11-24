@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "rootDir": "./ts",
+    "outDir": "./",
+    "target": "esnext",
+    "module": "Node16",
+    "moduleResolution": "node16",
+
+    "declaration": true,
+    "declarationDir": "./dts",
+
+    "removeComments": true,
+    "newLine": "lf",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "noUncheckedSideEffectImports": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true,
+    "allowJs": true,
+
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": true,
+    "suppressExcessPropertyErrors": false,
+    "suppressImplicitAnyIndexErrors": false,
+    "noStrictGenericChecks": false,
+    "sourceMap": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["dts", "node_modules"]
+}
